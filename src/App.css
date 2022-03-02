@@ -1,0 +1,129 @@
+.typing-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #121212;
+    height: 100vh;
+    color: white;
+    user-select: none;
+}
+
+.mid-con {
+    margin-top: 11rem;
+}
+
+.Info-container {
+    width: 800px;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #3c3c3c;
+}
+.words-container {
+    display: flex;
+    flex-wrap: wrap;
+    user-select: none;
+    padding: 1rem;
+    width: 100%;
+    min-height: 100px;
+    border-radius: 5px;
+}
+.word-letter {
+    font-size: 23px;
+    font-weight: 550;
+    letter-spacing: 1.5px;
+    color: #eee;
+}
+
+.typed {
+    transition: 0.06s ease-in;
+    color: #72deff;
+}
+
+.speed-container {
+    font-size: 1.5rem;
+    font-weight: 550;
+    text-align: left;
+}
+
+.tools-container {
+    position: relative;
+    width: 100%;
+}
+
+.click-activate {
+    font-size: 18px;
+}
+
+.options-con {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.d-button {
+    position: relative;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 5px 10px;
+    color: #eee;
+    background-color: #3c3c3c;
+    border: 1px solid #3c3c3c;
+    border-radius: 2px;
+    transition: 0.1 ease-in;
+}
+
+.d-button:active {
+    background-color: #8e689a;
+}
+
+.keyboard {
+    color: black;
+    width: 1000px;
+    position: absolute;
+    bottom: 5rem;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 2px;
+    pointer-events: none;
+}
+
+.keyboard-click {
+    color: white;
+    background-color: #4f4f4f !important;
+}
+
+.simple-keyboard.hg-layout-default .hg-button.keyboard-no-border-radius{
+    border-radius: 0;
+}
+@media (max-width: 700px) {
+    .mid-con {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .Info-container {
+        width: 80%;
+    }
+
+    .tools-container {
+        width: 80%;
+        height: 55px;
+    }
+    .speed-container {
+        font-size: 1rem;
+    }
+    .options-con {
+        right: auto;
+        top: auto;
+        bottom: 0;
+    }
+    .keyboard {
+        width: 100%;
+        bottom: 0;
+    }
+}
