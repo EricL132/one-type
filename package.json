@@ -1,6 +1,6 @@
 {
   "name": "type-sim",
-  "homepage": "./type-sim",
+  "homepage": "./one-type",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
